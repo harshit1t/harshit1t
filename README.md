@@ -64,63 +64,90 @@ Latest metrics snapshot:
 
 ---
 
-### 📂 Repo Structure
-
-```
-├── README.md                # This profile / showcase file
-├── LICENSE                  # License (MIT)
-├── snake-game/              # Standalone HTML5 Snake game
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── .github/workflows/
-│   └── snake.yml            # GitHub Actions: generate contribution snake SVG
-└── dist/                    # Auto-generated assets (git-tracked after first run)
-```
-
----
-
-### 🛠 Setup: Contribution Graph Snake
-
-1. Ensure this repository name matches your GitHub username exactly (for a profile README).
-2. Enable Actions (first run may require approval).
-3. Push once; the scheduled workflow will create `dist/contribution-snake.svg`.
-
-Manual trigger: Go to Actions → Snake → Run workflow.
-
----
-
-
-
-
-
----
-
-### 🌟 Philosophy
-
-I care about:
-* Frictionless onboarding (single script bootstrap)
-* Deterministic builds & reproducible environments
-* Small, composable abstractions over frameworks
-* Observability-first mindset (logs → traces → metrics)
-* Automating away category-of-bugs, not just patches
-
----
-
-
-### 💡 Live Metrics & Visuals
-
 <div align="center">
 
-<!-- GitHub Stats Cards -->
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=harshit1t&show_icons=true&hide_border=true&rank_icon=percentile&theme=transparent" alt="GitHub stats" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshit1t&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+<img src="assets/hero.svg" alt="Hero" width="100%" />
 
-<!-- Streak -->
-<img height="150" src="https://streak-stats.demolab.com?user=harshit1t&theme=transparent&hide_border=true" alt="GitHub streak" />
+### Hi, I'm <b>Harshit Tiwari</b> 👋
+<b>Building performant, observable and resilient systems.</b>
 
-<!-- Trophies (compact) -->
-<img src="https://github-profile-trophy.vercel.app/?username=harshit1t&theme=algolia&margin-w=6&margin-h=6&no-frame=true&column=6" alt="Trophies" />
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=harshit1t&style=flat-square&color=1f6feb" alt="profile views" />
+<img src="https://img.shields.io/github/last-commit/harshit1t/harshit1t?logo=github&color=8250df&label=updated" alt="last update" />
+<img src="https://img.shields.io/badge/Focus-DX%20%26%20Automation-orange?style=flat-square" alt="focus" />
+
+</div>
+
+---
+
+### 🚀 Quick Value
+
+* Ship fast without breaking: automated quality gates + contract tests.
+* Data-informed performance (budgets + profiling loops).
+* Reduce toil: scripts & generators for repeatable tasks.
+
+---
+
+### 📊 Metrics
+
+<!-- STATS:START -->
+Loading metrics...
+<!-- STATS:END -->
+
+<div align="center">
+	<img src="dist/metrics.svg" alt="Profile metrics" width="95%" />
+</div>
+
+---
+
+### 🔄 Recent Activity
+
+<!-- ACTIVITY:START -->
+Loading recent activity...
+<!-- ACTIVITY:END -->
+
+---
+
+### ⭐ Showcase
+
+| Project | Stack | Notes |
+|---------|-------|-------|
+| Template Starter | TS, Node, CI | Opinionated repo bootstrap (cache, tests, lint) |
+| Snake Game | HTML5 Canvas | Small focused game loop + mobile gestures |
+| Metrics Workflow | Actions + Bash | Self-updating README stats without secrets |
+| (Add one) | — | Replace with a real highlight you want to feature |
+
+---
+
+### 🧠 Core Toolkit
+
+<details>
+<summary><b>Expand tech stack</b></summary>
+
+```
+Languages : TypeScript · Python · Go · C++ (foundations)
+Frontend  : React · Next.js · Tailwind
+Backend   : Node.js (Fastify/Nest) · REST · GraphQL · WS
+Data      : PostgreSQL · Redis · Prisma · Drizzle
+DevOps    : Docker · GitHub Actions · Caching · Observability
+Testing   : Vitest/Jest · Playwright · PyTest · Contract Tests
+Patterns  : Clean Architecture · Hexagonal · Event Driven
+```
+
+</details>
+
+---
+
+### 🎮 Fun: Snake Contribution Graph
+
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="dist/snake-dark.svg" />
+	<source media="(prefers-color-scheme: light)" srcset="dist/snake-light.svg" />
+	<img alt="Contribution Snake" src="dist/snake.svg" width="100%" />
+</picture>
+
+> Auto-generated every few hours via workflow.
 
 </div>
 
@@ -154,82 +181,10 @@ I care about:
 </details>
 
 ### 🧭 Current Focus
-
-<ul>
-	<li>Sharpening Go concurrency primitives understanding</li>
-	<li>Improving Playwright visual regression workflow</li>
-	<li>Experimenting with edge compute + caching layers</li>
-</ul>
-
 ---
 
-### 🚀 Projects (Curated Highlights)
+<p align="center"><sub>Auto-updating sections: metrics & recent activity. Customize showcase with real projects.</sub></p>
 
-<table>
-<tr>
-	<td width="33%">
-		<h4><a href="https://github.com/harshit1t/PROJECT1">Project One</a></h4>
-		<p><strong>Infra aware build accelerator.</strong><br/>Cuts cold build time by adaptive caching + graph pruning.</p>
-		<ul>
-			<li>⬇️ 55% build latency</li>
-			<li>🔁 Deterministic artifact hashes</li>
-			<li>🧪 Plug-in test orchestration</li>
-		</ul>
-		<p><sub>Replace PROJECT1 with real repo.</sub></p>
-	</td>
-	<td width="33%">
-		<h4><a href="https://github.com/harshit1t/PROJECT2">Project Two</a></h4>
-		<p><strong>Edge-first API boilerplate.</strong><br/>Opinionated template for latency budgets & observability.</p>
-		<ul>
-			<li>⚡ p95 < 120ms (regional)</li>
-			<li>🛡 Zero-downtime deploys</li>
-			<li>📊 Built-in tracing</li>
-		</ul>
-		<p><sub>Replace PROJECT2 with real repo.</sub></p>
-	</td>
-	<td width="33%">
-		<h4><a href="https://github.com/harshit1t/PROJECT3">Project Three</a></h4>
-		<p><strong>Developer productivity dashboard.</strong><br/>Aggregates CI, coverage & perf budgets.</p>
-		<ul>
-			<li>📉 Drift detection alerts</li>
-			<li>🔍 Mutation score surfaced</li>
-			<li>🧠 Actionable insights</li>
-		</ul>
-		<p><sub>Replace PROJECT3 with real repo.</sub></p>
-	</td>
-</tr>
-</table>
-
-### 🛡 Quality & Reliability Playbook
-
-<details>
-<summary><b>Expand strategy checklist</b></summary>
-
-- Prevent: type-safe boundaries, input schema validation
-- Detect: structured logging, tracing spans, perf SLO dashboards
-- Contain: progressive deployment + feature flags
-- Recover: automated rollback + post-incident diff scripts
-- Improve: anomaly trend reports fed into backlog grooming
-
-</details>
-
-### ⚙️ Sample Automation Snippet
-
-```yaml
-# Reusable composite action concept (pseudo)
-name: verify
-runs:
-	using: composite
-	steps:
-		- uses: actions/cache@v4
-			with:
-				path: node_modules
-				key: node-${{ hashFiles('**/package-lock.json') }}
-		- run: npm ci --prefer-offline --no-audit
-		- run: npm run lint && npm test -- --coverage
-```
-
-### 📬 Connect
 
 <p align="center">
 <a href="mailto:harshit.dev.contact+gh@proton.me"><img src="https://img.shields.io/badge/Email-Contact-informational?style=flat&logo=gmail" alt="Email"/></a>
