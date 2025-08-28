@@ -80,21 +80,9 @@ Manual trigger: Go to Actions → Snake → Run workflow.
 
 ---
 
-### 🧪 Quick Local Run (Snake Game)
 
-Open directly:
 
-```
-snake-game/index.html
-```
 
-Or serve (Python quick server):
-
-```
-python -m http.server 8000
-```
-
-Then visit http://localhost:8000/snake-game/
 
 ---
 
@@ -108,6 +96,14 @@ I care about:
 * Automating away category-of-bugs, not just patches
 
 ---
+
+
+Harshit Tiwari
+10:29 PM (0 minutes ago)
+to me
+
+![GitHub Snake Light](https://raw.githubusercontent.com/harshit1t/harshit1t/output/snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://raw.githubusercontent.com/harshit1t/harshit1t/output/snake.svg#gh-dark-mode-only)
 
 ### 🔥 Featured Micro Highlights
 
