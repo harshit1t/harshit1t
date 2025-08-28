@@ -1,137 +1,74 @@
 <div align="center">
-
-# <img src="assets/hero.svg" alt="Hero banner" width="100%"/>
-
-# 👋 Hi, I'm Harshit Tiwari
-
-### Turning ideas into fast, reliable software.
-
-<p>
-<img src="https://img.shields.io/badge/Focus-Full%20Stack%20Dev-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Loves-Clean%20Architecture-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Drives-Automation-orange?style=for-the-badge" />
-</p>
-
-<p>
-<b>Impact > Lines of code</b><br/>
-I obsess over DX (developer experience), performance budgets, and eliminating flaky processes.
-</p>
-
----
-
-### 🚀 Snapshot
-
-| Metric | Highlight |
-| ------ | --------- |
-| ⏱ Performance | Lighthouse 95+ targets (Web) |
-| ✅ Quality | 90%+ meaningful test coverage (mutation aware) |
-| ⚙️ Automation | CI pipelines < 4 min avg runtime |
-| 📦 Reuse | Internal npm/pip packages for shared logic |
-
----
-
-### 🧠 Core Stack & Tools
-
-```
-Languages : TypeScript · Python · Go (learning) · C++ (foundations)
-Frontend  : React · Next.js · Tailwind · Performance Profiling
-Backend   : Node.js (Nest/Fastify) · REST · GraphQL · WebSockets
-Data      : PostgreSQL · Redis · Prisma · Drizzle · ORMs & Migrations
-DevOps    : Docker · GitHub Actions · CI/CD · Caching · Observability
-Testing   : Vitest/Jest · Playwright · PyTest · Contract Tests
-Patterns  : Clean Architecture · Hexagonal · Event Driven · CQRS-lite
-```
-
----
-
-### 🎮 Fun: Terminal Snake & Contribution Snake
-
-Below is a mini browser Snake game I built (see `snake-game/`). Try it locally or host on GitHub Pages.
-
-Contribution activity snake (auto-updated every 6h):
-
-<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="dist/snake-dark.svg" />
-	<source media="(prefers-color-scheme: light)" srcset="dist/snake-light.svg" />
-	<img alt="Contribution Snake" src="dist/snake.svg" width="100%" />
-</picture>
-
-> The workflow in `.github/workflows/snake.yml` regenerates the SVG variants and commits them.
-
-Latest metrics snapshot:
-
-<img src="dist/metrics.svg" alt="Profile metrics" width="100%" />
-
----
-
-<div align="center">
-
-<img src="assets/hero.svg" alt="Hero" width="100%" />
-
-### Hi, I'm <b>Harshit Tiwari</b> 👋
-<b>Building performant, observable and resilient systems.</b>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=harshit1t&style=flat-square&color=1f6feb" alt="profile views" />
-<img src="https://img.shields.io/github/last-commit/harshit1t/harshit1t?logo=github&color=8250df&label=updated" alt="last update" />
-<img src="https://img.shields.io/badge/Focus-DX%20%26%20Automation-orange?style=flat-square" alt="focus" />
-
+	<img src="assets/hero.svg" alt="Hero" width="100%" />
+	<h2>Hi, I'm <b>Harshit Tiwari</b> 👋</h2>
+	<b>Building performant, observable & resilient systems.</b><br/>
+	<sub>Impact > Lines of code • Automation • DX</sub>
 </div>
 
 ---
 
 ### 🚀 Quick Value
-
-* Ship fast without breaking: automated quality gates + contract tests.
-* Data-informed performance (budgets + profiling loops).
-* Reduce toil: scripts & generators for repeatable tasks.
+* Ship fast without breaking (quality gates + contract tests)
+* Performance budgets & profiling loops baked in
+* Reduce toil with generators / scripts / CI caching
 
 ---
 
 ### 📊 Metrics
-
 <!-- STATS:START -->
 Loading metrics...
 <!-- STATS:END -->
-
-<div align="center">
-	<img src="dist/metrics.svg" alt="Profile metrics" width="95%" />
-</div>
+<div align="center"><img src="dist/metrics.svg" alt="Profile metrics" width="95%" /></div>
 
 ---
 
 ### 🔄 Recent Activity
-
 <!-- ACTIVITY:START -->
 Loading recent activity...
 <!-- ACTIVITY:END -->
 
 ---
 
-### ⭐ Showcase
-
-| Project | Stack | Notes |
-|---------|-------|-------|
-| Template Starter | TS, Node, CI | Opinionated repo bootstrap (cache, tests, lint) |
-| Snake Game | HTML5 Canvas | Small focused game loop + mobile gestures |
-| Metrics Workflow | Actions + Bash | Self-updating README stats without secrets |
-| (Add one) | — | Replace with a real highlight you want to feature |
+### 🐍 Contribution Snake
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="dist/snake-dark.svg" />
+	<source media="(prefers-color-scheme: light)" srcset="dist/snake-light.svg" />
+	<img alt="Contribution Snake" src="dist/snake.svg" width="100%" />
+</picture>
 
 ---
 
-### 🧠 Core Toolkit
+### ⭐ Showcase
+| Project | Stack | Notes |
+|---------|-------|-------|
+| Template Starter | TS, Node, CI | Opinionated bootstrap (cache, lint, tests) |
+| Snake Game | HTML5 Canvas | Small game loop + mobile gestures |
+| Metrics Workflow | Actions + Bash | Self-updating README stats |
+| (Add one) | — | Replace with real highlight |
+
+---
+
+### 🧩 Tech Stack (Icons)
+<div align="center">
+
+| Frontend | Backend | Data | DevOps | Testing | Misc |
+|----------|---------|------|--------|---------|------|
+| <img height="28" src="https://cdn.simpleicons.org/react/61DAFB" alt="React" /> | <img height="28" src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="Node.js" /> | <img height="28" src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" /> | <img height="28" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" /> | <img height="28" src="https://cdn.simpleicons.org/jest/C21325" alt="Jest" /> | <img height="28" src="https://cdn.simpleicons.org/git/F05032" alt="Git" /> |
+| <img height="28" src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" /> | <img height="28" src="https://cdn.simpleicons.org/fastify/000000" alt="Fastify" /> | <img height="28" src="https://cdn.simpleicons.org/redis/DC382D" alt="Redis" /> | <img height="28" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" /> | <img height="28" src="https://cdn.simpleicons.org/playwright/45ba4b" alt="Playwright" /> | <img height="28" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" /> |
+| <img height="28" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind" /> | <img height="28" src="https://cdn.simpleicons.org/nestjs/E0234E" alt="NestJS" /> | <img height="28" src="https://cdn.simpleicons.org/prisma/2D3748" alt="Prisma" /> | <img height="28" src="https://cdn.simpleicons.org/amazonaws/232F3E" alt="AWS" /> | <img height="28" src="https://cdn.simpleicons.org/pytest/0A9EDC" alt="PyTest" /> | <img height="28" src="https://cdn.simpleicons.org/visualstudiocode/007ACC" alt="VS Code" /> |
+
+</div>
 
 <details>
-<summary><b>Expand tech stack</b></summary>
+<summary><b>Text Stack (expand)</b></summary>
 
 ```
 Languages : TypeScript · Python · Go · C++ (foundations)
 Frontend  : React · Next.js · Tailwind
-Backend   : Node.js (Fastify/Nest) · REST · GraphQL · WS
+Backend   : Fastify · Nest · REST · GraphQL · WS
 Data      : PostgreSQL · Redis · Prisma · Drizzle
-DevOps    : Docker · GitHub Actions · Caching · Observability
-Testing   : Vitest/Jest · Playwright · PyTest · Contract Tests
+DevOps    : Docker · Actions · Caching · Observability
+Testing   : Vitest · Jest · Playwright · PyTest · Contract Tests
 Patterns  : Clean Architecture · Hexagonal · Event Driven
 ```
 
@@ -139,90 +76,4 @@ Patterns  : Clean Architecture · Hexagonal · Event Driven
 
 ---
 
-### 🎮 Fun: Snake Contribution Graph
-
-<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="dist/snake-dark.svg" />
-	<source media="(prefers-color-scheme: light)" srcset="dist/snake-light.svg" />
-	<img alt="Contribution Snake" src="dist/snake.svg" width="100%" />
-</picture>
-
-> Auto-generated every few hours via workflow.
-
-</div>
-
-> These visual cards are generated by open-source services. If they rate-limit, they'll fallback automatically—no secrets required.
-
-### 🧩 Tech Stack (Icon Grid)
-
-<div align="center">
-
-| Frontend | Backend | Data | DevOps | Testing | Misc |
-|----------|---------|------|--------|---------|------|
-| <img height="32" src="https://cdn.simpleicons.org/react/61DAFB" alt="React" /> | <img height="32" src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="Node.js" /> | <img height="32" src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" /> | <img height="32" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" /> | <img height="32" src="https://cdn.simpleicons.org/jest/C21325" alt="Jest" /> | <img height="32" src="https://cdn.simpleicons.org/git/F05032" alt="Git" /> |
-| <img height="32" src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" /> | <img height="32" src="https://cdn.simpleicons.org/fastify/000000" alt="Fastify" /> | <img height="32" src="https://cdn.simpleicons.org/redis/DC382D" alt="Redis" /> | <img height="32" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" /> | <img height="32" src="https://cdn.simpleicons.org/playwright/45ba4b" alt="Playwright" /> | <img height="32" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" /> |
-| <img height="32" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind" /> | <img height="32" src="https://cdn.simpleicons.org/nestjs/E0234E" alt="NestJS" /> | <img height="32" src="https://cdn.simpleicons.org/prisma/2D3748" alt="Prisma" /> | <img height="32" src="https://cdn.simpleicons.org/amazonaws/232F3E" alt="AWS" /> | <img height="32" src="https://cdn.simpleicons.org/pytest/0A9EDC" alt="PyTest" /> | <img height="32" src="https://cdn.simpleicons.org/visualstudiocode/007ACC" alt="VS Code" /> |
-
-</div>
-
-### 📊 Compact Activity Summary
-
-<details>
-<summary><b>Expand recent engineering signals</b></summary>
-
-| Signal | Why it matters |
-|--------|----------------|
-| Fast CI (<4m) | High iteration velocity; protects quality gates |
-| High perf budgets | Prevents regressions (TTFB, bundle size) |
-| Reusable modules | Lowers duplication & cognitive overhead |
-| Observability-first | Shorter MTTR & proactive issue surfacing |
-| Contract tests | Avoids breaking API consumers silently |
-
-</details>
-
-### 🧭 Current Focus
----
-
-<p align="center"><sub>Auto-updating sections: metrics & recent activity. Customize showcase with real projects.</sub></p>
-
-
-<p align="center">
-<a href="mailto:harshit.dev.contact+gh@proton.me"><img src="https://img.shields.io/badge/Email-Contact-informational?style=flat&logo=gmail" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/harshit1t"><img src="https://img.shields.io/badge/LinkedIn-Network-blue?style=flat&logo=linkedin" alt="LinkedIn"/></a>
-<a href="https://twitter.com/harshit1t"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter" alt="Twitter"/></a>
-</p>
-
----
-
-### 📝 Last Notes
-Sections with placeholders (Projects) should be replaced with real repositories & metrics you can back with data. Authenticity > aesthetics.
-
-### 🔥 Featured Micro Highlights
-
-| Area | Example | What Matters |
-| ---- | ------- | ------------ |
-| DX | Project template generator | 90s to scaffold production-ready repo |
-| Perf | Reduced TTFB 40% | Caching + query shaping + gzip/brotli |
-| Testing | Contract test harness | Prevented breaking API changes pre-merge |
-| CI | Parallel matrix + cache | Cut pipeline 11m → 3m48s |
-
----
-
-### 🤝 Let's Collaborate
-
-Have an idea needing fast iteration, automation, or performance tuning? Open an issue or start a discussion.
-
-<p align="center">Made with focus, curiosity, and a bias for shipping. ⚡</p>
-
-</div>
-
----
-
-#### Profile README Tips (Why this stands out)
-* Clear value proposition in first screen.
-* Dynamic visual (snake) for subtle motion without distraction.
-* Metrics framed as outcomes, not buzzword lists.
-* Fun project (Snake) shows frontend + game loop logic concisely.
-* Philosophy section signals engineering maturity.
-
-Customize: Replace highlight metrics with your actual achievements; keep them truthful & outcome-driven.
+<p align="center"><sub>Auto-updated: metrics, activity, snake. Replace placeholders with real project achievements.</sub></p>
