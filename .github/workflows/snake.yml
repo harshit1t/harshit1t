@@ -2,10 +2,13 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # every day 00:00 UTC
+    - cron: "0 */6 * * *"  # every 6 hours (more freshness)
   workflow_dispatch:
   push:
     branches: [ main, master ]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -14,17 +17,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake.svg
+      - name: Generate snake SVG variants
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/contribution-snake.svg
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
 
-      - name: Commit & Push
+      - name: List generated files
+        run: ls -l dist || find . -maxdepth 2 -type f -name "snake*.svg"
+
+      - name: Commit & Push (if changed)
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/contribution-snake.svg || true
+          git add dist/snake*.svg || true
           if git diff --cached --quiet; then
             echo "No changes"
           else
