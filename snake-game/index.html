@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐍 Snake</h1>
+    <canvas id="board" width="400" height="400" aria-label="Snake game" role="img"></canvas>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <button id="pauseBtn" aria-pressed="false">Pause</button>
+      <button id="restartBtn">Restart</button>
+    </div>
+    <p class="hint">Use Arrow / WASD keys. Mobile: swipe.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
