@@ -1,5 +1,7 @@
 <div align="center">
 
+# <img src="assets/hero.svg" alt="Hero banner" width="100%"/>
+
 # 👋 Hi, I'm Harshit Tiwari
 
 ### Turning ideas into fast, reliable software.
@@ -55,6 +57,10 @@ Contribution activity snake (auto-updated every 6h):
 </picture>
 
 > The workflow in `.github/workflows/snake.yml` regenerates the SVG variants and commits them.
+
+Latest metrics snapshot:
+
+<img src="dist/metrics.svg" alt="Profile metrics" width="100%" />
 
 ---
 
@@ -156,6 +162,85 @@ I care about:
 </ul>
 
 ---
+
+### 🚀 Projects (Curated Highlights)
+
+<table>
+<tr>
+	<td width="33%">
+		<h4><a href="https://github.com/harshit1t/PROJECT1">Project One</a></h4>
+		<p><strong>Infra aware build accelerator.</strong><br/>Cuts cold build time by adaptive caching + graph pruning.</p>
+		<ul>
+			<li>⬇️ 55% build latency</li>
+			<li>🔁 Deterministic artifact hashes</li>
+			<li>🧪 Plug-in test orchestration</li>
+		</ul>
+		<p><sub>Replace PROJECT1 with real repo.</sub></p>
+	</td>
+	<td width="33%">
+		<h4><a href="https://github.com/harshit1t/PROJECT2">Project Two</a></h4>
+		<p><strong>Edge-first API boilerplate.</strong><br/>Opinionated template for latency budgets & observability.</p>
+		<ul>
+			<li>⚡ p95 < 120ms (regional)</li>
+			<li>🛡 Zero-downtime deploys</li>
+			<li>📊 Built-in tracing</li>
+		</ul>
+		<p><sub>Replace PROJECT2 with real repo.</sub></p>
+	</td>
+	<td width="33%">
+		<h4><a href="https://github.com/harshit1t/PROJECT3">Project Three</a></h4>
+		<p><strong>Developer productivity dashboard.</strong><br/>Aggregates CI, coverage & perf budgets.</p>
+		<ul>
+			<li>📉 Drift detection alerts</li>
+			<li>🔍 Mutation score surfaced</li>
+			<li>🧠 Actionable insights</li>
+		</ul>
+		<p><sub>Replace PROJECT3 with real repo.</sub></p>
+	</td>
+</tr>
+</table>
+
+### 🛡 Quality & Reliability Playbook
+
+<details>
+<summary><b>Expand strategy checklist</b></summary>
+
+- Prevent: type-safe boundaries, input schema validation
+- Detect: structured logging, tracing spans, perf SLO dashboards
+- Contain: progressive deployment + feature flags
+- Recover: automated rollback + post-incident diff scripts
+- Improve: anomaly trend reports fed into backlog grooming
+
+</details>
+
+### ⚙️ Sample Automation Snippet
+
+```yaml
+# Reusable composite action concept (pseudo)
+name: verify
+runs:
+	using: composite
+	steps:
+		- uses: actions/cache@v4
+			with:
+				path: node_modules
+				key: node-${{ hashFiles('**/package-lock.json') }}
+		- run: npm ci --prefer-offline --no-audit
+		- run: npm run lint && npm test -- --coverage
+```
+
+### 📬 Connect
+
+<p align="center">
+<a href="mailto:harshit.dev.contact+gh@proton.me"><img src="https://img.shields.io/badge/Email-Contact-informational?style=flat&logo=gmail" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/harshit1t"><img src="https://img.shields.io/badge/LinkedIn-Network-blue?style=flat&logo=linkedin" alt="LinkedIn"/></a>
+<a href="https://twitter.com/harshit1t"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter" alt="Twitter"/></a>
+</p>
+
+---
+
+### 📝 Last Notes
+Sections with placeholders (Projects) should be replaced with real repositories & metrics you can back with data. Authenticity > aesthetics.
 
 ### 🔥 Featured Micro Highlights
 

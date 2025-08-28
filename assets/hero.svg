@@ -1,0 +1,40 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Harshit Tiwari – Building Reliable, Performant Systems</title>
+  <desc id="desc">Animated gradient banner with tagline</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#6366F1">
+        <animate attributeName="stop-color" values="#6366F1;#3B82F6;#0EA5E9;#6366F1" dur="14s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#0EA5E9;#6366F1;#3B82F6" dur="14s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0EA5E9">
+        <animate attributeName="stop-color" values="#0EA5E9;#6366F1;#3B82F6;#0EA5E9" dur="14s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect width="1200" height="280" fill="url(#glow)" />
+    </mask>
+  </defs>
+  <rect width="1200" height="280" rx="28" fill="#0d1117" />
+  <rect width="1200" height="280" rx="28" fill="url(#g)" opacity="0.15" />
+  <g mask="url(#fadeMask)">
+    <g stroke="url(#g)" stroke-width="1" opacity="0.35">
+      <path d="M0 180 Q150 120 300 170 T600 165 T900 175 T1200 160" fill="none">
+        <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 180 Q150 120 300 170 T600 165 T900 175 T1200 160; M0 170 Q150 210 300 160 T600 185 T900 150 T1200 190; M0 180 Q150 120 300 170 T600 165 T900 175 T1200 160" />
+      </path>
+      <path d="M0 210 Q200 140 400 200 T800 190 T1200 205" fill="none">
+        <animate attributeName="d" dur="11s" repeatCount="indefinite" values="M0 210 Q200 140 400 200 T800 190 T1200 205; M0 205 Q200 240 400 190 T800 210 T1200 195; M0 210 Q200 140 400 200 T800 190 T1200 205" />
+      </path>
+    </g>
+  </g>
+  <text x="60" y="138" fill="#E6EDF3" font-family="'Segoe UI', system-ui, Arial" font-size="44" font-weight="600">Harshit Tiwari</text>
+  <text x="60" y="186" fill="#9CA3AF" font-family="'Segoe UI', system-ui, Arial" font-size="20">Shipping resilient systems • Performance • DX Automation</text>
+  <circle r="34" cx="1130" cy="70" fill="#161b22" stroke="#30363d" />
+  <text x="1098" y="80" fill="#3FB950" font-family="monospace" font-size="24">{ }</text>
+</svg>
