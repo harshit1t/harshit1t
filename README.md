@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="assets/hero.svg" alt="Hero" width="100%" />
+	
 	<h2>Hi, I'm <b>Harshit Tiwari</b> 👋</h2>
 	<b>Building performant, observable & resilient systems.</b><br/>
 	<sub>Impact > Lines of code • Automation • DX</sub>
