@@ -1,8 +1,8 @@
 <div align="center">
 	
-	<h2>Hi, I'm <b>Harshit Tiwari</b> 👋</h2>
-	<b>Building performant, observable & resilient systems.</b><br/>
-	<sub>Impact > Lines of code • Automation • DX</sub>
+	Hi, I'm Harshit Tiwari 👋
+	Building performant, observable & resilient systems.
+	Impact > Lines of code • Automation • DX
 </div>
 
 ---
