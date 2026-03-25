@@ -19,9 +19,9 @@
 | Metric | Value |
 |--------|-------|
 | ⭐ Stars (first 100 repos) | 0 |
-| 📦 Public Repos | 12 |
+| 📦 Public Repos | 13 |
 | 👥 Followers | 0 |
-| ⏱ Last Refresh | 2026-03-24 13:51 UTC |
+| ⏱ Last Refresh | 2026-03-25 03:19 UTC |
 <!-- STATS:END -->
 <div align="center"><img src="dist/metrics.svg" alt="Profile metrics" width="95%" /></div>
 
