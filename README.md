@@ -20,8 +20,8 @@
 |--------|-------|
 | ⭐ Stars (first 100 repos) | 0 |
 | 📦 Public Repos | 20 |
-| 👥 Followers | 1 |
-| ⏱ Last Refresh | 2026-09-21 04:58 UTC |
+| 👥 Followers | 0 |
+| ⏱ Last Refresh | 2026-09-21 18:12 UTC |
 <!-- STATS:END -->
 <div align="center"><img src="dist/metrics.svg" alt="Profile metrics" width="95%" /></div>
 
